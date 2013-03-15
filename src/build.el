@@ -1,3 +1,4 @@
 (elpakit
  "../packages"
- '("~/work/clojure-emacs-hacks/"))
+ '("../../clojure-emacs-hacks/"
+   "../build/emacs-w3m/"))
