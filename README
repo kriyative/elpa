@@ -1,1 +1,3 @@
-An ELPA repository of Emacs packages that I use and maintain.
+An ELPA repository of Emacs packages that I use and maintain. The packages in this repository are:
+
+* clojure-emacs-hacks (1.0.0) -- A collection of Clojure mode hacks
