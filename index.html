@@ -7,5 +7,16 @@
       <li>clojure-emacs-hacks (1.0.0) -- A collection of Clojure mode
 	hacks</li>
     </ul>
+
+    <p>To use this repo in Emacs 24+, just add the following to
+    your <code>~/.emacs</code> or <code>~/.emacs.d/init.el</code>
+    file.</p>
+
+    <pre>
+      (add-to-list 'package-archives '("kriyative" . "http://kriyative.github.com/elpa/packages/"))
+      (package-initialize)
+      (package-refresh-contents)
+    </pre>
+
   </body>
 </html>
