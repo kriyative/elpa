@@ -1,0 +1,1 @@
+(1 (clojure-emacs-hacks . [(1 0 0) ((clojure-mode (2 0 0)) (clojure-test-mode (2 0 0))) "Clojure mode extensions" tar]))
