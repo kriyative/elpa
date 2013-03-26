@@ -1,1 +1,1 @@
-(1 (clojure-emacs-hacks . [(1 0 0) ((clojure-mode (2 0 0)) (clojure-test-mode (2 0 0))) "Clojure mode extensions" tar]) (miagi . [(0 0 1) ((emacs-w3m (1 4 501))) "MIAGI is a Gmail interface (for Emacs)" tar]) (emacs-w3m . [(1 4 501) nil "Emacs web browser based on w3m" tar]))
+(1 (clojure-emacs-hacks . [(1 0 0) ((clojure-mode (2 0 0)) (clojure-test-mode (2 0 0))) "Clojure mode extensions" tar]) (miagi . [(0 0 2) ((emacs-w3m (1 4 501))) "MIAGI is a Gmail interface (for Emacs)" tar]) (emacs-w3m . [(1 4 501) nil "Emacs web browser based on w3m" tar]))
