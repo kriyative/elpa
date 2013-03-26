@@ -1,0 +1,22 @@
+#+TITLE: A personal ELPA repository of Emacs packages
+
+An ELPA repository of Emacs packages that I use and maintain. The
+packages in this repository are:
+
+- [[https://github.com/kriyative/clojure-emacs-hacks][clojure-emacs-hacks]] (1.0.0) -- A collection of Clojure mode hacks
+- [[http://emacs-w3m.namazu.org/][emacs-w3m]] (1.4.501) -- a simple Emacs interface to w3m
+- [[https://github.com/kriyative/miagi][miagi]] (0.0.2) -- an alpha quality Gmail client in Emacs
+
+To use this repo in Emacs 24+, just add the following to your
+=~/.emacs= or =~/.emacs.d/init.el= file.
+
+: (add-to-list 'package-archives '("kriyative" . "http://kriyative.github.com/elpa/packages/"))
+: (package-initialize)
+: (package-refresh-contents)
+
+After eval'ing the above, the aforementioned packages should display
+in the =M-x package-list-packages= list, and be installable like other
+packages from the ELPA or marmalade repos.
+
+If you find any issues or have any questions, please email me at
+kriyative <at> gmail <dot> com.

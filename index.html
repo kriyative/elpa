@@ -1,24 +1,131 @@
-<html>
-  <body>
-    <p>An ELPA repository of Emacs packages that I use and
-      maintain. The packages in this repository are:</p>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>A personal ELPA repository of Emacs packages</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="title" content="A personal ELPA repository of Emacs packages"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2013-03-26 08:32:00 PDT"/>
+<meta name="author" content="Ram Krishnan"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
 
-    <ul>
-      <li>clojure-emacs-hacks (1.0.0) -- A collection of Clojure mode
-	hacks</li>
-      <li>emacs-w3m (1.4.501) -- a web browser in Emacs</li>
-      <li>miagi (0.0.2) -- an alpha-quality Gmail client in Emacs</li>
-    </ul>
+</head>
+<body>
 
-    <p>To use this repo in Emacs 24+, just add the following to
-    your <code>~/.emacs</code> or <code>~/.emacs.d/init.el</code>
-    file.</p>
+<div id="preamble">
 
-    <pre>
-      (add-to-list 'package-archives '("kriyative" . "http://kriyative.github.com/elpa/packages/"))
-      (package-initialize)
-      (package-refresh-contents)
-    </pre>
+</div>
 
-  </body>
+<div id="content">
+<h1 class="title">A personal ELPA repository of Emacs packages</h1>
+
+<p>An ELPA repository of Emacs packages that I use and maintain. The
+packages in this repository are:
+</p>
+<ul>
+<li><a href="https://github.com/kriyative/clojure-emacs-hacks">clojure-emacs-hacks</a> (1.0.0) &ndash; A collection of Clojure mode hacks
+</li>
+<li><a href="http://emacs-w3m.namazu.org/">emacs-w3m</a> (1.4.501) &ndash; a simple Emacs interface to w3m
+</li>
+<li><a href="https://github.com/kriyative/miagi">miagi</a> (0.0.2) &ndash; an alpha quality Gmail client in Emacs
+</li>
+</ul>
+
+
+<p>
+To use this repo in Emacs 24+, just add the following to your
+<code>~/.emacs</code> or <code>~/.emacs.d/init.el</code> file.
+</p>
+<pre class="example">
+(add-to-list 'package-archives '("kriyative" . "http://kriyative.github.com/elpa/packages/"))
+(package-initialize)
+(package-refresh-contents)
+</pre>
+
+
+<p>
+After eval'ing the above, the aforementioned packages should display
+in the <code>M-x package-list-packages</code> list, and be installable like other
+packages from the ELPA or marmalade repos.
+</p>
+<p>
+If you find any issues or have any questions, please email me at
+kriyative &lt;at&gt; gmail &lt;dot&gt; com.
+</p></div>
+
+</body>
 </html>
