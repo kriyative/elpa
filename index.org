@@ -6,6 +6,7 @@ packages in this repository are:
 - [[https://github.com/kriyative/clojure-emacs-hacks][clojure-emacs-hacks]] (1.0.0) -- A collection of Clojure mode hacks
 - [[http://emacs-w3m.namazu.org/][emacs-w3m]] (1.4.501) -- a simple Emacs interface to w3m
 - [[https://github.com/kriyative/miagi][miagi]] (0.0.2) -- an alpha quality Gmail client in Emacs
+- [[https://github.com/nablaone/slime][slime]] (605f930) -- an unofficial snapshot of SLIME
 
 To use this repo in Emacs 24+, just add the following to your
 =~/.emacs= or =~/.emacs.d/init.el= file.
