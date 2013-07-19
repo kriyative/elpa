@@ -2,5 +2,6 @@
  "../packages"
  '("../../clojure-emacs-hacks/"
    "../../miagi/"
-   "../../slime-605f930/"
-   "../build/emacs-w3m/"))
+   "../../elisp-libs/slime-605f930/"
+   "../../elisp-libs/emacs-w3m/"
+   "../../elisp-libs/dictionary/"))
